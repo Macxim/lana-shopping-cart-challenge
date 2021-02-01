@@ -14,13 +14,7 @@ function ProductCounter({ count, updateCount }) {
       <button className="count" onClick={DecreaseItem}>
         -
       </button>
-      <input
-        min="0"
-        type="text"
-        className="product-quantity"
-        value={count}
-        onChange={updateCount}
-      />
+      <input min="0" type="text" className="product-quantity" value={count} />
       <button className="count" onClick={IncrementItem}>
         +
       </button>

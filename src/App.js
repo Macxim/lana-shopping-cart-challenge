@@ -53,7 +53,7 @@ function App() {
           </li>
         </ul>
         <ul className="products-list">
-          {ProductList.map((item) => (
+          {ProductList.map(item => (
             <ProductItem
               key={item.code}
               item={item}
